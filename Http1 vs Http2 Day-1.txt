@@ -1,0 +1,45 @@
+HTTP1.1 => Hypertext Transfer Protocal 
+
+* http is the first version .
+
+* By using HTTP user sends the request to the server & the server sends the response to the user.
+
+* before sending the request and the response there is a TCP connection between client & server.
+
+* there is a open connection between client and server.
+
+* several request and response are merege to single connections in Http1, There are the drawback in Http first version.
+
+
+HTTP2 => it is next version of http (second version)
+
+* its is binary framing layer that means textual content convert into binary format 
+
+*  it is fully multipluxed that is one TCP(tranfer control protocal)  connection is used for multiple request.
+
+* The server sends all the other files like CSS & JS without the request of the client using the PUSH frame. 
+
+
+
+
+Difference between Http1 and Http2
+
+         HTTP1                      
+
+1. It works on the textual format.              
+
+2. There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+
+3. It uses requests resource Inlining for use getting multiple pages
+
+4. It compresses data by itself.
+
+ 
+    HTTP2
+1. It works on the binary protocol.
+
+2. It allows multiplexing so one TCP connection is required for multiple requests.
+
+3. It uses PUSH frame by server that collects all multiple pages 
+
+4. It uses HPACK for data compression.

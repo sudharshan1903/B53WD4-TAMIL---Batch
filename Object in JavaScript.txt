@@ -1,0 +1,35 @@
+1. An object, is a reference data type.
+2. Object is an instance of classes.
+3. Variables that are assigned a reference value.
+5. That reference points to the location in memory where the object is stored.
+6. The variables don’t actually store the value.
+7. object has many values.
+8. object has key value pair 
+
+Object Syntax: 
+
+=> variable object_Name = {key:value);
+
+let obj={id:101};
+
+
+Using the JavaScript Keyword new
+
+Syntax:
+
+=> variable object_Name = new Object(); // new is a key word for object creation , Object is class 
+
+var fruits = new Object();
+fruits.apple=10;
+fruits.mango=5;
+fruits.grapes=15;
+
+
+
+
+Create JavaScript Object with Object Literal
+
+example 
+
+let student = {regno:"B53WD316",name:"sudharshan",batch:"evening",course:"MERN FULLSTACK" duration:3};
+ 
